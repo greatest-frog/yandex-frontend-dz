@@ -33,8 +33,8 @@ h1 {
 }
 
 li {
-    margin: 10px 0 10px 0;
-    
+    margin: 5px 0 5px 0;
+    width: 325px;
 }
 
 a {
@@ -49,6 +49,19 @@ a:visited:not(.black-link) {
 footer {
     margin: 50px -120px ;
 }
+
+nav div {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav span, nav a {
+    color: #999999;
+}
+nav a:visited {
+    color: #999999;
+}
+
 
 .heading-line {
     margin-left: -120px;
@@ -108,15 +121,18 @@ footer {
 }
 
 .services {
-    max-width: 600px;
+    max-width: 680px;
     margin-top: 38px;
+}
+
+.list {
     display: flex;
+    justify-content: space-between;
     flex-wrap: wrap;
-    gap: 50px;
 }
 
 .service * {
-    vertical-align:middle;
+    vertical-align: middle;
 }
 
 .service-logo {
@@ -129,16 +145,4 @@ footer {
 
 .black-link {
     color: black;
-}
-
-.footer-link {
-    display: inline-block;
-    margin-right: 20px;
-}
-
-.footer-link span, .footer-link a {
-    color: #999999;
-}
-.footer-link a:visited {
-    color: #999999;
 }
