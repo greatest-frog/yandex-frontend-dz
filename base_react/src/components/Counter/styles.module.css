@@ -1,0 +1,32 @@
+.counter {
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.button {
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    border: none;
+    border-radius: 8px;
+    width: 38px;
+    height: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button:disabled {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.button:active:not(:disabled) {
+    border: 2px solid #505050;
+}
+
+.activeCount {
+    color: black;
+}

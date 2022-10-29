@@ -6,7 +6,7 @@ import { categories } from "./constants/mock";
 export const App = () => {
     return <div>
         <Layout>
-            <BooksPage books={categories}></BooksPage>
+            <BooksPage categories={categories}></BooksPage>
         </Layout>
     </div>;
 }
