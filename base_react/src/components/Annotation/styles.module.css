@@ -1,0 +1,19 @@
+h5 {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0 0 14px 0;
+}
+
+p {
+    font-size: 14px;
+    line-height: 21px;
+    margin: 0;
+}
+
+.annotation {
+    box-sizing: border-box;
+    background-color: white;
+    width: 590px;
+    border-radius: 8px;
+    padding: 20px;
+}
